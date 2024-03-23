@@ -1,0 +1,36 @@
+@import 'variables';
+
+.container__small-card-content{
+    /*border: 2px solid $text-color;*/
+
+    display: flex;
+    flex-direction: row;
+
+    margin-bottom: 15px;
+}
+
+.small-card__photo {
+    height: 120px;
+    width: 200px;
+}
+
+.small-card__photo img {
+    width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.small-card__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.small-card__title h1 {
+    font-size: 20px;
+}
+
+.container__small-card hr {
+    margin-bottom: 15px;
+}

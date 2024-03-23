@@ -1,0 +1,14 @@
+@import 'variables';
+
+.container__menu {
+    display: flex;
+    justify-content: center;
+}
+
+.container__articles {
+    margin-top: $content-margin;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
