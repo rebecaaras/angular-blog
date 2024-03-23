@@ -10,4 +10,4 @@ Tools used in this project:
 
 ## Preview
 
-![Webpage preview](preview-1.png)
+![Webpage preview](src/preview-1.png)
