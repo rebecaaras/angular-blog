@@ -16,3 +16,13 @@
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+@media screen and (max-width: 500px) {
+    .container__page-title h1 {
+        font-size: 69px;
+        margin-top: 0;
+        margin-bottom: 0;
+        display: flex;
+        justify-content: center;
+        }
+    }
