@@ -17,6 +17,8 @@
     width: 100%;
     min-width: 100%;
     min-height: 100%;
+
+    border-radius: $card-border-radius;
 }
 
 .small-card__title {
@@ -31,12 +33,12 @@
 }
 
 .container__small-card hr {
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     color: $secondary-color;
     visibility: hidden;
 }
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 431px) {
     .small-card__photo {
         height: 100px;
         width: 200px;

@@ -1,14 +1,31 @@
 <div class="container__menu">
     <app-menu-bar></app-menu-bar>
 </div>
-<app-page-title></app-page-title>
+<app-page-title pageTitle="Blender Blog"></app-page-title>
 <div class="container__articles">
     <div class="articles__main">
-        <app-big-card></app-big-card>
+        <app-big-card photoCover="https://www.blender.org/wp-content/uploads/2024/01/blender_30_years_team-480x270.jpg"
+                      cardTitle="Celebrating 30 years of Blender"
+                      cardDescription="Today Blender turns 30 years old! Here is a short message from the team."
+                      cardLink="https://www.blender.org/news/celebrating-30-years-of-blender/?utm_medium=news">
+        </app-big-card>
     </div>
     <div class="articles__others">
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
+        <app-small-card 
+            photoCover="https://www.blender.org/wp-content/uploads/2024/03/blender_for_breakfast_gdc_24-480x270.jpg"
+            cardTitle="Blender at GDC 2024"
+            cardLink="https://www.blender.org/press/blender-at-gdc-2024/?utm_medium=news">
+        </app-small-card>
+        <app-small-card 
+            photoCover="https://www.blender.org/wp-content/uploads/2023/12/blender_30th_birthday_header_16_9_nocta-480x270.jpg"
+            cardTitle="A Birthday Gift for Blender – Donation Drive 2023"
+            cardLink="https://www.blender.org/press/a-birthday-gift-for-blender-donation-drive-2023/?utm_medium=news">
+        </app-small-card>
+        <app-small-card 
+            photoCover="https://ddz4ak4pa3d19.cloudfront.net/cache/34/04/3404695b72f8f378446af53e8f98ebcc.jpg"
+            cardTitle="Retopology Modifiers - Pinning & Relaxing"
+            cardLink="https://studio.blender.org/blog/retopology-modifiers-pinning-relaxing/?utm_medium=news">
+        </app-small-card>
+    
     </div>
 </div>

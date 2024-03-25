@@ -17,6 +17,10 @@
     min-width: 100%;
 }
 
+.big-card__photo img {
+    border-radius: $card-border-radius;
+}
+
 .big-card__title h1 {
     font-size: 28px;
     margin-top: $big-card-title-margin;
@@ -28,7 +32,7 @@
     color: gray;
 }
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 431px) {
     .container__big-card {
         display: flex;
         flex-direction: column;

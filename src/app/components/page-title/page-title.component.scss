@@ -17,12 +17,11 @@
     margin-bottom: 10px;
 }
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 431px) {
     .container__page-title h1 {
-        font-size: 69px;
-        margin-top: 0;
-        margin-bottom: 0;
+        font-size: 60px;
+        margin: 0 auto;
         display: flex;
         justify-content: center;
-        }
     }
+}

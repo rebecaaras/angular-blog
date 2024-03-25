@@ -8,6 +8,10 @@ Tools used in this project:
 - SASS/CSS
 - HTML
 
+Important features:
+- Responsive layout.
+
 ## Preview
 
 ![Webpage preview](src/preview-1.png)
+![Webpage preview](src/preview-2.png)
