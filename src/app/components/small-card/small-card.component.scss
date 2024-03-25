@@ -5,7 +5,6 @@
 
     display: flex;
     flex-direction: row;
-
     margin-bottom: 15px;
 }
 
@@ -33,4 +32,23 @@
 
 .container__small-card hr {
     margin-bottom: 15px;
+    color: $secondary-color;
+    visibility: hidden;
 }
+
+@media screen and (max-width: 426px) {
+    .small-card__photo {
+        height: 100px;
+        width: 200px;
+    }
+
+    .container__small-card-content{
+        /*border: 2px solid $text-color;*/
+        width: 300px;
+        display: flex;
+        flex-direction: row;
+
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+    }
